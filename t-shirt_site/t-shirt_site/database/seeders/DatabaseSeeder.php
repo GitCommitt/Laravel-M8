@@ -36,8 +36,8 @@ class DatabaseSeeder extends Seeder
         $blue = color::create(['name' => 'Blue']);
 
         tshirt::create([
-            'text_line_1' => 'Kippenpoeder', 
-            'text_line_2' => 'Uit kippen gemaakt', 
+            'text_line_1' => 'Daan', 
+            'text_line_2' => 'Uit katoen', 
             'categories_id' => $short->id, 
             'colors_id' => $red->id
         ]);
