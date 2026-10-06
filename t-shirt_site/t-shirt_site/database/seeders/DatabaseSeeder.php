@@ -25,15 +25,15 @@ class DatabaseSeeder extends Seeder
             'email' => 'test@example.com',
         ]);
         
-        $baggy = category::create(['name' => 'Baggy']);
-        $slim = category::create(['name' => 'Slim']);
-        $short = category::create(['name' => 'Short']);
+        $baggy = category::create(['name' => 'baggy']);
+        $slim = category::create(['name' => 'slim']);
+        $short = category::create(['name' => 'short']);
 
-        $red = color::create(['name' => 'Red']);
-        $green = color::create(['name' => 'Green']);
-        $yellow = color::create(['name' => 'Yellow']);
-        $pink = color::create(['name' => 'Pink']);
-        $blue = color::create(['name' => 'Blue']);
+        $red = color::create(['name' => 'red']);
+        $green = color::create(['name' => 'green']);
+        $yellow = color::create(['name' => 'yellow']);
+        $pink = color::create(['name' => 'pink']);
+        $blue = color::create(['name' => 'blue']);
 
         tshirt::create([
             'text_line_1' => 'Daan', 
